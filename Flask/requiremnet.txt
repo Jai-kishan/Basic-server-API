@@ -1,0 +1,36 @@
+so firstly we need install pip
+
+
+
+after install pip we need to install Flask
+
+
+
+Postman
+
+
+for pip upgrade
+
+'pip install --upgrade pip'
+
+
+also you need to install virtualenv 
+
+virtualenv is a virtual Python environment builder. It helps a user to create multiple Python environments side-by-side. Thereby, it can avoid compatibility issues between the different versions of the libraries.
+
+pip install virtualenv 
+
+
+Sudo apt-get install virtualenv
+
+
+mkdir newproj
+cd newproj
+virtualenv venv
+
+venv/bin/activate   or  
+. venv/bin/activate
+
+
+pip install Flask
+
